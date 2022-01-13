@@ -1,0 +1,76 @@
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  padding-top: 15rem;
+}
+
+.about-content {
+  width: 100%;
+}
+
+.about-title {
+  font-size: 5rem;
+  font-family: 'Poppins';
+}
+
+.about-text {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 320px) {
+  .normal-screen {
+    display: none;
+  }
+
+  .about-content .responsive ul li {
+    font-size: 1rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .about-content .responsive ul li {
+    font-size: 1.5rem;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-content .responsive ul li {
+    font-size: 2rem;
+  }
+
+  .about-title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .about-content .responsive {
+    display: none !important;
+  }
+
+  .normal-screen {
+    display: initial !important;
+  }
+
+  .normal-screen .about-title {
+    font-size: 5rem !important;
+  }
+
+  .about-text {
+    font-size: 2rem !important;
+  }
+}

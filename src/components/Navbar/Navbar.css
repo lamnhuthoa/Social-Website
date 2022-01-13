@@ -1,0 +1,136 @@
+.NavbarItems {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.menu-icon i {
+  font-size: 5rem;
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  color: #fff;
+  transition: all 0.5s ease;
+  text-shadow: rgba(0, 0, 0, 0.24) 1px 2px 3px;
+}
+
+.menu-icon i:hover {
+  text-shadow: rgba(0, 0, 0, 0.24) 4px 4px 3px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  background: rgba( 255, 255, 255, 0.05 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  z-index: 1;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-items li {
+  margin: 1rem;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 3rem;
+  transition: all 0.5s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-shadow: rgba(0, 0, 0, 0.24) 4px 4px 3px;
+}
+
+.menu-items li a:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-shadow: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+}
+
+/* Case menu active */
+.menu-items.active {
+  transform: translateX(0%);
+}
+
+/* scroll navbar active */
+.NavbarItems.active .menu-items {
+  background:rgba(143, 203, 228, 0.585);
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+}
+
+@media screen and (min-width: 320px) {
+  .menu-icon i {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .menu-items li a {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .menu-icon i {
+    font-size: 3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .menu-items li a {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .menu-icon i {
+    font-size: 3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .menu-items li a {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon i {
+    font-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .menu-items li a {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .NavbarItems {
+      display: none;
+  }
+}

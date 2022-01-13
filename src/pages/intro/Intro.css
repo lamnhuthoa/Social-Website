@@ -1,0 +1,131 @@
+.intro-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../public/img/mountain-snow.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.greetings-container h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12rem;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+/*
+  Typing Text Styling
+*/
+
+.typing-greetings-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+/* End Styling */
+
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transform: translateZ(0) scale(1);
+  display: flex;
+  padding-top: 15rem;
+}
+
+.work-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transform: translateZ(0) scale(1);
+  display: flex;
+  padding-top: 7rem;
+}
+
+.contact-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  transform: translateZ(0) scale(1);
+  display: flex;
+  padding-top: 12rem;
+}
+
+@media screen and (min-width: 320px) {
+  .typing-greetings-container {
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    transform: translateY(-10%);
+    width: 70%;
+  }
+
+  .work-container {
+    padding: 5rem 0;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .typing-greetings-container {
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    transform: translateY(-10%);
+    width: 70%;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .typing-greetings-container {
+    font-size: 3rem;
+    transform: translateY(-10%);
+    width: 70%;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typing-greetings-container {
+    font-size: 5rem;
+    transform: translateY(-10%);
+    width: 70%;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .typing-greetings-container {
+    justify-content: start !important;
+    text-align: left;
+    font-size: 6rem;
+    width: 50%;
+    margin-left: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .typing-greetings-container {
+    justify-content: start !important;
+    text-align: left;
+    font-size: 6rem;
+    width: 50%;
+    margin-left: 7.5rem;
+    line-height: 6rem;
+  }
+}

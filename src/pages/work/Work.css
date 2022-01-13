@@ -1,0 +1,166 @@
+.work-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  padding: 7rem 0;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 30rem;
+  height: 20rem;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  border-radius: 1rem;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 1rem;
+  transition: all 0.8s ease;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 1rem;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front img {
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.flip-card-back {
+  color: white;
+  position: relative;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back img {
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.flip-card-text {
+  color: #000;
+  font-family: "Poppins";
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 20rem;
+}
+
+.flip-card-link {
+  font-family: "Poppins";
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flip-card-link a {
+  background: #000;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #fff;
+  width: 10rem;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 320px) {
+  .flip-card {
+    width: 20rem;
+    height: 15rem;
+    margin: 1rem 0;
+  }
+
+  .flip-card-link a {
+    font-size: 0.75rem;
+    width: 7rem;
+  }
+}
+
+@media screen and (min-width: 414px) {
+}
+
+@media screen and (min-width: 480px) {
+  .work-container {
+    padding: 5rem 0;
+  }
+
+  .flip-card {
+    width: 25rem;
+    height: 15rem;
+    margin: 1rem 0;
+  }
+
+  .flip-card-link a {
+    font-size: 1rem;
+    width: 9rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .work-container {
+    padding: 7rem 0;
+  }
+
+  .flip-card {
+    width: 30rem;
+    height: 20rem;
+    margin: 1rem 0;
+  }
+
+  .flip-card-link a {
+    font-size: 1.25rem;
+    width: 10rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .flip-card {
+    width: 30rem;
+    height: 20rem;
+    margin: 1rem 0;
+  }
+
+  .flip-card-link a {
+    font-size: 1.5rem;
+    width: 12rem;
+  }
+}
