@@ -1,10 +1,19 @@
 .work-container {
   position: relative;
   width: 100%;
-  height: 100vh;
   background: #fff;
   display: flex;
-  padding: 7rem 0;
+  padding: 10rem 0;
+}
+
+.work-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .flip-card {
@@ -92,16 +101,6 @@
   border-radius: 0.5rem;
 }
 
-.work-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 50%;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 @media screen and (min-width: 320px) {
   .flip-card {
     width: 20rem;
@@ -119,10 +118,6 @@
 }
 
 @media screen and (min-width: 480px) {
-  .work-container {
-    padding: 5rem 0;
-  }
-
   .flip-card {
     width: 25rem;
     height: 15rem;
@@ -136,10 +131,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .work-container {
-    padding: 7rem 0;
-  }
-
   .flip-card {
     width: 30rem;
     height: 20rem;

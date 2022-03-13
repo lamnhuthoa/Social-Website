@@ -23,7 +23,6 @@ export default function Work() {
     return (
         <div className="work-container" id="work">
             <div className="work-content container">
-                <div className="work-container">
                     {workList.map(work => (
                         <div className="flip-card">
                             <div className="flip-card-inner">
@@ -42,7 +41,6 @@ export default function Work() {
                             </div>
                         </div>
                     ))}
-                </div>
             </div>
         </div>
     )
