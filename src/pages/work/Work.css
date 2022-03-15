@@ -68,7 +68,7 @@
 
 .flip-card-text {
   color: #000;
-  font-family: "Poppins";
+  font-family: 'Fredoka', sans-serif !important;
   font-weight: 500;
   position: absolute;
   top: 50%;
@@ -78,7 +78,7 @@
 }
 
 .flip-card-link {
-  font-family: "Poppins";
+  font-family: 'Fredoka', sans-serif !important;
   font-weight: 500;
   position: absolute;
   top: 50%;

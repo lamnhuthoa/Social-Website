@@ -3,8 +3,20 @@ import Navbar from '../Navbar/Navbar'
 import './Header.css'
 
 export default function Header() {
+    const [header, setHeader] = useState(false);
+
+    const changeBackground = () => {
+        if(window.scrollY >= 700) {
+            setHeader(true);
+        } else {
+            setHeader(false);
+        }
+    }
+
+    window.addEventListener('scroll',changeBackground);
+
     return (
-        <div className="header-container">
+        <div className={header ? "header-container active" : "header-container"}>
             <div className="header-content container">
                 <a className="main-text header-logo" href="#"><p>H.</p></a>
                 <div className="header-nav">

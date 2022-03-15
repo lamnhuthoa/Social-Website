@@ -13,10 +13,10 @@
 }
 
 .menu-icon i {
-  font-size: 5rem;
+  font-size: 4.5rem;
   text-align: center;
-  width: 5rem;
-  height: 5rem;
+  width: 4.5rem;
+  height: 4.5rem;
   color: #fff;
   transition: all 0.5s ease;
   text-shadow: rgba(0, 0, 0, 0.24) 1px 2px 3px;
@@ -54,7 +54,7 @@
 .menu-items li a {
   text-decoration: none;
   color: #fff;
-  font-family: "Poppins";
+  font-family: 'Fredoka', sans-serif !important;
   font-size: 3rem;
   transition: all 0.5s ease;
   padding: 0.5rem 1rem;
@@ -76,7 +76,7 @@
 
 /* scroll navbar active */
 .NavbarItems.active .menu-items {
-  background:rgba(143, 203, 228, 0.585);
+  background:rgba(123, 123, 123, 0.585);
   backdrop-filter: blur( 5px );
   -webkit-backdrop-filter: blur( 5px );
 }
@@ -95,9 +95,9 @@
 
 @media screen and (min-width: 414px) {
   .menu-icon i {
-    font-size: 3rem;
-    width: 3rem;
-    height: 3rem;
+    font-size: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .menu-items li a {
@@ -119,13 +119,13 @@
 
 @media screen and (min-width: 768px) {
   .menu-icon i {
-    font-size: 4rem;
-    width: 4rem;
-    height: 4rem;
+    font-size: 3.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .menu-items li a {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 
