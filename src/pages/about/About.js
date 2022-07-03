@@ -4,17 +4,19 @@ import styled from 'styled-components'
 
 export default function About() {
 
-    const contents = ['A front-end developer', 'Works at BOSCH', 'Lives in Vietnam', 'Was born in 1999', 'Studied at UEH University', 'Speaks English, Vietnamese', 'Loves traveling around', 'Enjoys playing the instruments']
+    const contents = ['A Front-end Developer', 'Works @ BOSCH', 'Lives in Vietnam', 'Was born in 1999', 'Graduated at UEH University', 'Speaks English, Vietnamese', 'Loves coffee, arts', 'Enjoys playing the instruments']
 
     return (
         <div className="about-container" id="about">
             <div className="about-content container">
                 <div className="normal-screen">
-                    <div><p className="text-center about-title">Hòa</p></div>
+                    <div>
+                        <p className="text-center about-title">Hòa</p>
+                    </div>
                     <Wrap>
                         {contents.map((content, index) => {
                             return (
-                                <Item id={index}>
+                                <Item className="about-text" id={index}>
                                     {content}
                                 </Item>
                             )
@@ -27,7 +29,7 @@ export default function About() {
                     <ul className="d-flex flex-column justify-content-center">
                         {contents.map((content, index) => {
                             return (
-                                <li id={index}>{content}</li>
+                                <li className="about-text" id={index}>{content}</li>
                             )
                         })}
                     </ul>

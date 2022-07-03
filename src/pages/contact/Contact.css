@@ -23,6 +23,14 @@
   /* transform: translateY(-50%); */
 }
 
+.behance a {
+    background: #053eff;
+}
+
+.dribbble a {
+    background: #E84A87;
+}
+
 .instagram a{
   background: radial-gradient(
     circle at 30% 107%,

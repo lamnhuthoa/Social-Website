@@ -5,7 +5,7 @@
   background: #fff;
   padding-top: 15rem;
   display: flex;
-  color: #0F0E0E;
+  color: #01283a;
 }
 
 .about-content {
@@ -13,13 +13,12 @@
 }
 
 .about-title {
-  font-size: 5rem;
-  font-family: 'Fredoka', sans-serif !important;
+  font-size: 10rem !important;
+  font-weight: bolder;
 }
 
 .about-text {
   font-size: 1.5rem;
-  font-family: 'Fredoka', sans-serif !important;
   margin: 0;
   padding: 0;
 }
