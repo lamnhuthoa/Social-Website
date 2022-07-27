@@ -67,7 +67,7 @@
 }
 
 .flip-card-text {
-  color: #01283a;
+  color: #0f0e0e;
   font-weight: 500;
   position: absolute;
   top: 50%;
@@ -89,7 +89,7 @@
 }
 
 .flip-card-link a {
-  background: #01283a;
+  background: #0f0e0e;
   font-size: 1.5rem;
   text-decoration: none;
   color: #fff;

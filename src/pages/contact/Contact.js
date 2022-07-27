@@ -30,13 +30,13 @@ export default function Contact() {
                         <a href="https://github.com/lamnhuthoa" className="fab fa-github"></a>
                     </div>
 
-                    {/* <div className="contact-item youtube">
+                    <div className="contact-item youtube">
                         <a href="https://www.youtube.com/channel/UCukW1Um0W4I_xgJH-UIRC9w" className="fab fa-youtube"></a>
                     </div>
 
                     <div className="contact-item soundcloud">
                         <a href="https://soundcloud.com/lamnhuthoa" className="fab fa-soundcloud"></a>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>

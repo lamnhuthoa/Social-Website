@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export default function About() {
 
-    const contents = ['A Front-end Developer', 'Works @ BOSCH', 'Lives in Vietnam', 'Was born in 1999', 'Graduated at UEH University', 'Speaks English, Vietnamese', 'Loves coffee, arts', 'Enjoys playing the instruments']
+    const contents = ['A Front-end Developer', 'Works @ BOSCH', 'Lives in Vietnam', 'Was born in 1999', 'Graduated from UEH University', 'Speaks English, Vietnamese', 'Loves coffee, arts', 'Enjoys playing the instruments']
 
     return (
         <div className="about-container" id="about">

@@ -40,8 +40,8 @@
 .header-content li {
   position: relative;
   text-align: center;
-  width: 6rem;
-  background: #000;
+  width: 5rem;
+  background: #0f0e0e;
   margin-left: 5rem;
 }
 
@@ -54,7 +54,7 @@
   width: fit-content;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: all 250ms ease;
   cursor: pointer;
   text-decoration: none;
@@ -63,13 +63,12 @@
 
 .header-container.active .header-content li a {
   color: #fff;
-  background-color: #01283a;
-  /* backdrop-filter: blur(5px) !important; */
+  background-color: #0f0e0e;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .header-container.active .header-logo p {
-  color: #01283a !important;
+  color: #0f0e0e !important;
 }
 
 .header-logo:hover {

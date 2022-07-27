@@ -13,7 +13,7 @@ export default function Work() {
         },
         {
             "title": "Mini Todos",
-            "sourceCode": "https://github.com/lamnhuthoa/Todo-List-App-for-Minimalist",
+            "sourceCode": "https://github.com/lamnhuthoa/Todo-App",
             "viewSite": "https://mini-todos.netlify.app/",
             "img": "./img/work/todos.png",
             "button2": "Write todos"
